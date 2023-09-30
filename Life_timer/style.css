@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-contanier {
+  background-image: url("https://images.unsplash.com/photo-1695623803163-f2843be82d50?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.main-contanier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-contanier h2 {
+  font-size: 2rem;
+}
+.text-container .hide {
+  display: none;
+}
+.setting-section {
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+#reset {
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+}
+.icon-contanier i {
+  color: white;
+  font-size: 1.5rem;
+}
+.input-contant {
+  display: flex;
+  gap: 0.5rem;
+}
+.hide {
+  display: none;
+}
+.input-contant input {
+  padding: 0.3rem;
+  outline: none;
+  border: none;
+}
+.input-contant button {
+  background-color: #eb6a20;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.afterText-container {
+  text-align: center;
+}
+.afterText-container .hide {
+  display: none;
+}
+.after-items {
+  display: flex;
+  gap: 1rem;
+}
+.after-items h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.after-items div {
+  font-size: 2rem;
+  color: white;
+}
