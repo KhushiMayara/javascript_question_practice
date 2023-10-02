@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #132043;
+  --primary-light: #5d12d2;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+.main-container {
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHN0dWR5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  position: absolute;
+  top: 0rem;
+  left: 5rem;
+  height: 100%;
+}
+.form-heading h2 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 900;
+  text-align: center;
+}
+.form-heading h2 span {
+  color: var(--primary-light);
+}
+.form-contanier {
+  background-color: var(--primary);
+  padding: 6rem 3rem;
+  text-align: center;
+}
+.form-contanier input {
+  padding: 1rem;
+  outline: none;
+  font-size: 1.6rem;
+  color: white;
+  background-color: transparent;
+  width: 95%;
+  margin: 1.5rem;
+  border: 0.1rem solid var(--primary-light);
+}
+.form-contanier button {
+  background-color: var(--primary-light);
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+  padding: 0.8rem 1.8rem;
+  margin-top: 3rem;
+}
+.form-contanier #results {
+  font-size: 2rem;
+  color: white;
+  padding: 2rem;
+}
+
+@media (max-width: 700px) {
+  .row {
+    left: 0;
+  }
+  .form-contanier {
+    padding: 3rem 1rem;
+    padding-bottom: 6rem;
+  }
+}
