@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.title-container h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: palevioletred;
+  padding: 1.2rem;
+}
+.button_container {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button_container button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background-color: #e57c7c;
+  color: white;
+  border: none;
+}
+
+.color-box {
+  height: 13rem;
+  margin: 1rem;
+}
+
+.colorCopy {
+  font-size: 2rem;
+  width: 10rem;
+  margin: 2rem;
+  background-color: aliceblue;
+  display: none;
+}
+.colorCopy:hover {
+  background-color: blue;
+  display: block;
+}
